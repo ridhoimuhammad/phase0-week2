@@ -1,1 +1,2 @@
-### phase0-week2
+### phase0-week2 ###
+*Javascript*
