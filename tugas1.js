@@ -2,7 +2,7 @@
 /// Psuedocode 
 ///////////////////
 // T U G A S - 1
-/////////////////////// tugas.js
+/////////////////////// tugas1.js
 var 
 nama='eky';
 angkapembilang=20;
