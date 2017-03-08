@@ -12,29 +12,27 @@ console.log("+-------------------------------+")
 //Penulisan peran case-sensitive
 
 var nama,peran;
-nama='i';
+nama='hbj';
 peran='Tabib';
-if(nama==='',peran===''){
+if(nama===''){
   console.log("Nama tidak boleh kosong")
-  console.log("Pilih peranmu untuk memulai game")
+  
 }
-else if(nama===+nama,peran==='Ksatria')
+else if(nama!=='')
 {  
 console.log("Selamat datang di Dunia Proxytia, " +nama)
-console.log("Halo Ksatria  "+nama, " kamu dapat menyerang dengan senjatamu!")
+//console.log("Halo Ksatria  "+nama, " kamu dapat menyerang dengan senjatamu!")
 }
-else if(nama===+nama,peran==='Tabib')
-{  
-console.log("Selamat datang di Dunia Proxytia, " +nama)
-console.log("Halo Tabib "+nama," kamu akan membantu temanmu yang terluka.")
+if (peran ==''){
+  console.log("Pilih peranmu untuk memulai game!")
+  }
+else if (peran!=='' && peran=== "Kesatria"){
+  console.log("Halo Ksatria " +nama +", kamu dapat menyerang dengan senjatamu!")
+  }else if (peran!=='' && peran==="Tabib"){
+    console.log("Halo Tabib " +nama +", kamu dapat menyerang dengan senjatamu!")
+  }else if(peran!=='' && peran=== "Penyihir"){
+    console.log("Halo Penyihir " +nama +", ciptakan keajaiban yang membantu kemenanganmu!")
+  }else{
+  console.log("Pilih peranmu untuk memulai game!")
 }
-else if(nama===+nama,peran==='Penyihir')
-{  
-console.log("Selamat datang di Dunia Proxytia, " +nama)
-console.log("Halo Penyihir "+nama," ciptakan keajaiban yang membantu kemenanganmu!")
-}
-else
-{  
-console.log("Selamat datang di Dunia Proxytia, " +nama)
-console.log("Halo..."+nama,"typing berpengaruh, Program ini Case-sensitive :D :D ")
-}
+ 
