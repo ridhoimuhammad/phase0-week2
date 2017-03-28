@@ -21,7 +21,7 @@ var teman = function(teman_nama,teman_kabar,teman_pekerjaan){
         console.log('-------------------------------------');
 	}
     this.berpisah			=function(otherTeman){
-		console.log('Senang bertemu denganmu, ' +this.nama+', semoga kamu sukses sebagai '+this.pekerjaan);	
+		console.log('Senang bertemu denganmu ' +this.nama+', semoga kamu sukses sebagai '+this.pekerjaan);
 	}
 }
 var dika = new teman ('dika','alhamdulillah baik','programer');
@@ -34,4 +34,4 @@ budi.sapa(tono.nama);
 tono.balasSapa(budi.nama);
 budi.tanya_pekerjaan();
 tono.balas_pekerjaan();
-budi.berpisah(tono);
+tono.berpisah(budi);
