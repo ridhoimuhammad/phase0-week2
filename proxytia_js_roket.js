@@ -54,5 +54,9 @@ for (var i =0 ; i<tahunLahir;i++){
   }else if (i%kodeMonster===0){
     console.log('monster menyerang ' + peran + ' ' + nama + '!');
     playerHealth-kodeMonster;
+  }else if (playerHealth>monsterHealth) {
+    console.log('Selamat, ' + peran + ' ' + nama + ' memenangkan pertarungan!');
+  }else {
+    console.log('Sayang sekali, ' + peran + ' ' + nama + ' dikalahkan monster...');
   }
 }
